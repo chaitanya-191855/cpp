@@ -12,7 +12,7 @@ int main() {
         cin>>arr[i];
     }
     
-    while(n<size)
+    while(n<size)// sizeof(arr)// size=*(&arr+1)-arr
     {
         int pos,index,ele;
         cout<<"enter the pos"<<endl;
